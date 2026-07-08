@@ -1,0 +1,15 @@
+# Nhị phân đã biên dịch (build lại bằng build_gpu.sh / lệnh trong README)
+build/
+
+# Ảnh test tổng hợp (nặng, tái tạo bằng bench/make_test_images.py) + ảnh kết quả benchmark
+images/syn_*.png
+images/out/
+
+# Tài liệu / slide (không push theo yêu cầu) — chỉ giữ report/BaoCao_CuoiKi.md
+docs/
+slides/
+report/*.docx
+
+# Rác hệ điều hành / editor
+.DS_Store
+Thumbs.db
